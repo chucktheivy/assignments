@@ -1,0 +1,21 @@
+---
+title: "assignment1a"
+author: "Charlie Wilson"
+date: "2/13/2023"
+output: html_document
+---
+## Why are you taking this course?
+### I am taking this course because I want to leave Bren with some R still in my wheelhouse. As of now my last substantial experience with R was in 206 and I need a refresher. 
+
+## Data Science Background
+### My data science background is limited to 206 and other Bren courses. I was a math minor in undergrad but that was a far cry from data science and using compSci to understand large data sets
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+## Why are you taking this course?
+### I am taking this course because I want to leave Bren with some R still in my wheelhouse. As of now my last substantial experience with R was in 206 and I need a refresher. 
+
+## Data Science Background
+### My data science background is limited to 206 and other Bren courses. I was a math minor in undergrad but that was a far cry from data science and using compSci to understand large data sets
+```
+
