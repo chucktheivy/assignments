@@ -10,7 +10,8 @@ fishsummary = function(fishVec) {
   d = min(summary(fishFact))
 
   # calculate total number of fish
-  e = summary(fishVec)
+  e = length(fishVec)
 
-  return(a)
+  return(list(mostCommonFish = a, numberMostCommonFish = b, leastCommonFish = c, numberLeastCommonFish = d, totalFishCaught = e))
+
 }

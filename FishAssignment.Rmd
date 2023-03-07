@@ -8,6 +8,19 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
+source("fishcount.R")
+
+# read in .txt file into a dataframe
+allFish = read.table("fish.txt")
 
 
+#convert fish dataframe into vector
+fishVec = allFish$V1
+
+# convert vector into factor values
+#fishVec = as.factor(fishVec)
+
+summary(fishVec)
+
+fishsummary(fishVec)
 ```
